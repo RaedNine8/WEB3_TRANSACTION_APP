@@ -1,0 +1,47 @@
+try npx hardhat test
+
+
+
+au dessous de smart_contract:
+npm init -y pour générer un packet.json pour notre premier  smart contract
+
+
+
+
+
+npm install -D @tailwindcss/forms
+ to enable the changes in tailwind.config.cjs
+
+
+
+steps to create the contract :
+crate the metamask account
+go to goerli faucet
+copy the account
+post into the placeholder in the goerli faucet page
+
+after getting some eth coins to test with
+
+go to alchamy and create an account
+copy the https address
+and go to hardhat.config.js and do the config
+
+now we have a
+Transactions.sol under 'contracts' that has thesolidity smartcontract and the contract labels
+deploy.js under 'scripts' that has the script to deploy that contract
+and hardhat.config.js that has the config necessary for the full transaction 
+then:
+
+
+npx hardhat run scripts/deploy.js --network goerli
+
+then we wait for the terminal to give us the address of the deployed contract
+check screen'add mtaa l deployed contract'
+
+copy the code '0xe07017013427e25613a817d616d7A5dB7F0447Ad' inside constants.js 
+
+
+
+Transactions.json(abi) serves to interact between contracts inside and outside the blockchain and contains all the information about
+our smartcontract
+
